@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>HTML Dinânico</title>
+</head>
+<body>
+	<article id="post">
+		<h1 id="title">Banana</h1>
+		<img id="img" src="assets/BaggySaltyGrouse.gif">
+		
+		<input id="trocar-imagem" type="button" value="Trocar imagem">
+	</article>
+
+	<script>
+	//selecionar elemento HTML
+	
+
+
+
+	var imagem = document.querySelector('#img');
+	console.log(imagem);
+	
+	
+	var botao = document.querySelector('#trocar-imagem')
+	console.log(botao);
+
+	function trocarImagem(){
+		imagem.src = (imagem.src === "file:///home/estudio-vai-na-web-05/Documentos/aula-de-js/assets/BaggySaltyGrouse.gif") ? "file:///home/estudio-vai-na-web-05/Documentos/aula-de-js/assets/giphy.webp" : "file:///home/estudio-vai-na-web-05/Documentos/aula-de-js/assets/BaggySaltyGrouse.gif"
+		 
+	}
+
+	botao.addEventListener('click', trocarImagem);
+	//modificar atributos de um elemento HTML selecionado
+
+	//modificar stributos de estilo de um elemento HTML selecionado
+
+	//modoficar stributo de estilo de um elemento HTML selecionado 	
+
+	//executar código JS quando o usuario realizar uma ação determinada
+	</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+body{
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: yellow;
+}
+.caixa--calculadora{
+	width: 14%;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: purple;
+	box-shadow: 0 45px 27px -5px rgba(0,0,0,0.8) ;
+}
+.caixa--display{
+}
+.caixa--botoes{
+	width: 50%;
+	height: 160px;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.botao--del{
+	width: 50%;
+	color: #fff;
+	background-color: #000;
+}
+.butao--solid:hover{
+	background-color: purple;
+}
+.butao--solid{
+	width: 25%;
+	border: none;
+}
+.botao--itens{
+	width: 25%;
+	max-height: 40px;
+	
+}
+.botao--itens-adicao{
+	color: #fff;
+	background-color: #000;
+}
